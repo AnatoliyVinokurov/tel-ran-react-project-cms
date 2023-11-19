@@ -5,9 +5,27 @@ import './LeftMenu.css';
 const LeftMenu = () => {
     return (
         <div className='left-menue-full-clicked'>
-            Left Menu
+
+
+
+            <div class="account-information">
+                <div class="help-text">
+                    <div class="user-name">User Name</div>
+                </div>
+                <img class="profile-icon" alt="" src="./img/profile-icon.svg" />
+            </div>
+
+            <div class="separator"></div>
+
+
+
+
+
+
+
+
         </div>
-        );
-    };
-    
+    );
+};
+
 export default LeftMenu;

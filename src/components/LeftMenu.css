@@ -8,4 +8,47 @@
     overflow: hidden;
     font-size: 20px;
     color: #fefcfc;
-  }
+}
+
+.account-information,
+.profile-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+.account-information {
+    top: 16px;
+    left: 16px;
+    border-radius: 12px;
+    width: 208px;
+}
+
+
+.help-text {
+    position: absolute;
+    top: 12px;
+    left: 56px;
+    width: 116px;
+    height: 24px;
+}
+
+.user-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 24px;
+}
+
+.separator {
+    position: absolute;
+    left: 16px;
+    border-radius: 12px;
+    width: 208px;
+    top: 76px;
+    background-color: #885af8;
+    height: 1px;
+}
