@@ -1,0 +1,11 @@
+.left-menue-full-clicked {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #333b4e;
+    width: 240px;
+    height: 1024px;
+    overflow: hidden;
+    font-size: 20px;
+    color: #fefcfc;
+  }
