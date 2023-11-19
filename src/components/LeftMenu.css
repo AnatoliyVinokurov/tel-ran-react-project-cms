@@ -52,3 +52,20 @@
     background-color: #885af8;
     height: 1px;
 }
+
+.dashboard {
+    position: absolute;
+    left: 16px;
+    border-radius: 12px;
+    width: 208px;
+    top: 89px;
+    
+    height: 48px;
+    
+}
+
+.dashboard:hover {
+    color: #2ed47a;
+    background-color: #edffc8;
+    cursor: pointer;
+}
