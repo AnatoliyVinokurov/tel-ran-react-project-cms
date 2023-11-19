@@ -34,6 +34,7 @@
     left: 56px;
     width: 116px;
     height: 24px;
+    color: #fefcfc;
 }
 
 .user-name {
@@ -59,9 +60,8 @@
     border-radius: 12px;
     width: 208px;
     top: 89px;
-    
     height: 48px;
-    
+
 }
 
 .dashboard:hover {
@@ -69,3 +69,85 @@
     background-color: #edffc8;
     cursor: pointer;
 }
+
+.help-text:hover {
+    color: #333b4e;
+}
+
+.factories {
+    top: 149px;
+    height: 48px;
+    position: absolute;
+    left: 16px;
+    border-radius: 12px;
+    width: 208px;
+}
+
+.help-text2 {
+    position: absolute;
+    top: 12px;
+    left: 56px;
+    width: 116px;
+    height: 24px;
+    color: black;
+}
+
+.agents {
+    position: absolute;
+    left: 16px;
+    border-radius: 12px;
+    width: 208px;
+    height: 48px;
+    top: 209px;
+}
+
+.business-requests {
+    position: absolute;
+    top: 269px;
+    left: 16px;
+    border-radius: 12px;
+    width: 208px;
+    height: 48px;
+}
+
+.br-text {
+    position: absolute;
+    top: 12px;
+    left: 56px;
+    width: 140px;
+    height: 24px;
+    color: #fefcfc;
+  }
+
+  .br-text:hover {
+    color: #000;
+  }
+
+  .business-requests:hover{
+    background-color: #fefcfc;
+    color: #2ed47a;
+  }
+
+  .orders{
+    position: absolute;
+    left: 16px;
+    border-radius: 12px;
+    width: 208px;
+    top: 329px;
+  height: 48px;
+  }
+
+  .orders:hover {
+    background-color: #fefcfc;
+    color: #2ed47a;
+  }
+
+  .separator2{
+    position: absolute;
+  left: 16px;
+  border-radius: 12px;
+  width: 208px;
+  top: 389px;
+  background-color: #885af8;
+  height: 1px;
+  }
